@@ -1,5 +1,6 @@
 import { FaHome, FaBriefcase, FaPenNib, FaEnvelope, FaUser, FaProjectDiagram, FaGithub } from 'react-icons/fa';
 import { FaLinkedin, FaInstagram, FaYoutube } from 'react-icons/fa';
+import { FaGamepad } from 'react-icons/fa6';
 
 export default function Sidebar() {
   return (
@@ -14,10 +15,11 @@ export default function Sidebar() {
 
       <nav className="nav">
         <a href="#"><FaHome /> Home</a>
+        <a href="#"><FaUser /> About / Resume</a>
         <a href="#"><FaBriefcase /> Work</a>
         <a href="#"><FaProjectDiagram /> Projects</a>
         <a href="#"><FaPenNib /> Blog</a>
-        <a href="#"><FaUser /> About / Resume</a>
+        <a href="#"><FaGamepad /> Esports</a>
         <a href="#"><FaEnvelope /> Contact</a>
       </nav>
 

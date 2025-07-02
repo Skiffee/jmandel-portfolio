@@ -190,38 +190,11 @@ canvas {
   margin-bottom: 0;
 }
 
-.tag.top-right {
-  position: absolute;
-  top: 0.75rem;
-  right: 0.75rem;
-  margin: 0;
-  z-index: 2;
-}
-
-.project-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  height: 100%;
-}
-
-.project-info h3 {
-  margin: 0;
-  padding: 0;
-  line-height: 1.2;
-}
-
-.project-info small {
-  margin: 0.2rem 0 0 0;
-  padding: 0;
-}
-
 .project-content {
   display: flex;
   align-items: flex-start;
   gap: 1rem;
 }
-
 
 .thumbnail {
   width: 200px;
@@ -232,44 +205,49 @@ canvas {
   margin: 0;
 }
 
-
-.top-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-
-.top-row h3 {
+/* Tag in Top-Right */
+.tag.top-right {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
   margin: 0;
-  font-size: 1.2rem;
-  font-weight: bold;
-  color: #fff;
-}
-
-.tag {
   background: #444;
   color: #eee;
   font-size: 0.7rem;
   padding: 0.25rem 0.5rem;
   border-radius: 4px;
+  z-index: 2;
 }
 
+/* Details Column */
 .details {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  padding-right: 4rem;
+  word-wrap: break-word;
 }
 
-.details small {
-  margin-top: 0.25rem;
+/* Title + Date */
+.title-date {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.title-date h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.1;
+  color: #fff;
+}
+
+.title-date small {
+  margin: 0;
+  font-size: 0.95rem;
   color: #ccc;
 }
 
-.details p {
-  margin-top: 0.5rem;
-  color: #ccc;
-  line-height: 1.4;
-}
 
 
 
